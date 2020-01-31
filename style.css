@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+}
+
+
+#woman-head {
+    animation: womanHead 3s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+#point-one {
+    animation: pointed 3s infinite ease-in-out alternate;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+
+
+}
+
+#point-two {
+    animation: pointed 3s infinite ease-in-out alternate;
+    opacity: 0;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+
+
+}
+
+#point-three {
+    animation: pointed 3s infinite ease-in-out alternate;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: both;
+
+
+}
+
+#point-four {
+    animation: pointed 3s infinite ease-in-out alternate;
+    opacity: 0;
+    animation-delay: 9s;
+
+}
+
+@keyframes womanHead {
+    form {
+        transform: rotate(-10deg);
+    }
+
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes pointed {
+    form {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
